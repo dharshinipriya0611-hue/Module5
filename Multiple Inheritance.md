@@ -13,7 +13,7 @@ To write a Python program to get the name, attendance, and ID of a student and c
 1. Begin the program.
 2. Define the Student class with an init method to initialize name and student_id, and a method get_student_info() to return student details.
 3. Define the Attendance class that inherits from Student, with an init method to initialize name, student_id, and attendance, calling super().init() for the parent attributes.
-4. Define a method check_eligibility() in Attendance to determine if the student’s attendance is greater than 80 and return the eligibility message.
+4. Define a method check_eligibility() in Attendance to determine if the student’s grade is greater than 90 and return the eligibility message.
 5. Read name, student_id, and attendance from the user, create an Attendance object, call check_eligibility(), and print the result.
 6. Terminate the program.
 
