@@ -23,10 +23,26 @@ To write a Python code to create a class for a person with a parameterized const
 
 ### PROGRAM
 
-```
+~~~
+Reg.No: 212223090004
+Name: D Dharshini priya
 
-```
+class person:
+    def __init__(self,name,userid):
+        self.name=name
+        self.userid=userid
+    def display(self):
+        print(self.userid)
+name=str(input())
+userid=str(input())
+obj=person(name,userid)
+obj.display()
+~~~ 
+
 
 ### OUTPUT
+<img width="758" height="261" alt="image" src="https://github.com/user-attachments/assets/acc5738b-303d-488f-bdeb-c21c7ba5e413" />
+
 
 ### RESULT
+Thus the program is created and verified.
