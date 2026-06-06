@@ -23,8 +23,8 @@ To write a Python program to get the name, age, and location of a person and dis
 
 ### PROGRAM
 ~~~
-Reg.No: 212223060305
-Nmae: Vishnu Priya E
+Reg.No: 212223090004
+Nmae: D Dharshini priya
 class Person:
     def get_name(self, name):
         self.name = name
